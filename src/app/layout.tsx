@@ -1,16 +1,17 @@
-import { Inter, Lexend } from 'next/font/google'
 import clsx from 'clsx'
+import { Inter, Lexend } from 'next/font/google'
 
 import '@/styles/tailwind.css'
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - TrustChain',
+    default:
+      'TrustChain - The Future of Decentralized Reviews on the Blockchain',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Enhancing trust worldwide in the Web3 ecosystem. TrustChain leverages blockchain to ensure transparent, immutable, and honest reviews.',
 }
 
 const inter = Inter({
